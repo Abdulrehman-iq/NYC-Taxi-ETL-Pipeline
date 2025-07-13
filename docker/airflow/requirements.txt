@@ -1,0 +1,5 @@
+boto3
+pyspark
+kafka-python
+apache-airflow==1.10.9
+psycopg2-binary  # For PostgreSQL
