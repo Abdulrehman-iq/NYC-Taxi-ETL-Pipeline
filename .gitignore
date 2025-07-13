@@ -1,4 +1,4 @@
-data/
+data/raw/yellow_tripdata.csv
 __pycache__/
 *.pyc
 .env
