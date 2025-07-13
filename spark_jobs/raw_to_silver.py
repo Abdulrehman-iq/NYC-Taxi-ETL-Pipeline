@@ -35,7 +35,6 @@ def main():
     # Write to HDFS as Parquet
     df.write.mode("overwrite").parquet("hdfs://namenode:9000/user/abdulrehman/silver_data/yellow_tripdata.parquet")
 
-    # Stop Spark session
     spark.stop()
 
 def run_etl():
